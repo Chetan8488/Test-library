@@ -12,4 +12,8 @@ public class DebugLog {
     public static void e(Context context, String msg) {
         Log.e(context.getClass().getSimpleName(), msg);
     }
+
+    public static void d(Context context, String msg) {
+        Log.d(context.getClass().getSimpleName(), msg);
+    }
 }

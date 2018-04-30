@@ -14,6 +14,7 @@ public class DebugLog {
     }
 
     public static void d(Context context, String msg) {
+
         Log.d(context.getClass().getSimpleName(), msg);
     }
 }
